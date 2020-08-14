@@ -1,6 +1,6 @@
-import home from  './components/home.vue'
-import About from './components/About.vue'
-import Faq from './components/Faq.vue'
+import home from  './pages/home.vue'
+import About from './pages/About.vue'
+import Faq from './pages/Faq.vue'
 
 export default  [
     {path: '/', component:home},

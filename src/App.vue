@@ -6,14 +6,14 @@
 
 <script>
 
-import home from './components/home.vue'
-import Faq from './components/Faq.vue'
-import About from './components/About.vue'
+import home from './pages/home.vue'
+import Faq from './pages/Faq.vue'
+import About from './pages/About.vue'
 
 
 export default {
   name: 'App',
-  components: {
+  pages: {
     home,
       Faq,
       About
