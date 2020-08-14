@@ -5,7 +5,7 @@
                 <div class="logo"><img src="../assets/logo.svg" alt="" height="40"></div>
                 <div class="link-up">
                     <a href="">About</a>
-                    <a href="">FAQs</a>
+                    <router-link to="/faq" href="">FAQs</router-link>
                     <a href="">Stories</a>
                     <a href="">Blog</a>
                     <a href="" style="color: #622586">Sign In</a>
