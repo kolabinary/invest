@@ -33,19 +33,21 @@
         </div>
 
         <body1></body1>
-
+        <body2></body2>
 
     </div>
 </template>
 
 <script>
     import body1 from '../components/home/body1.vue'
+    import body2 from '../components/home/body2.vue'
 
 
     export default {
         name: 'home',
         components: {
-            body1
+            body1,
+            body2
         }
     }
 </script>
