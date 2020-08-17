@@ -125,7 +125,9 @@ export default {
             background-color: #fff;
             padding: 1.5rem 2rem 3.5em 2em;
             border-radius: 8px;
-            box-shadow: 5px 5px 15px rgba(49,19,66,0.04), 5px 25px 50px rgba(49,19,66,0.04), 5px 30px 40px rgba(49,19,66,0.06);
+            box-shadow: 5px 5px 15px rgba(49,19,66,0.04),
+                        5px 25px 50px rgba(49,19,66,0.04),
+                        5px 30px 40px rgba(49,19,66,0.06);
         }
 
     }

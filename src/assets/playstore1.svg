@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164.173" height="43" viewBox="0 0 164.173 43">
+  <g id="Group_25628" data-name="Group 25628" transform="translate(-744.422 -6607)">
+    <g id="playstore_1_" data-name="playstore (1)" transform="translate(744.422 6612.249)">
+      <g id="Group_119" data-name="Group 119" transform="translate(0 0.001)">
+        <path id="Path_1481" data-name="Path 1481" d="M68.5,10.8C64.844,8.753,58.982,5.472,49.89.381A2.192,2.192,0,0,0,47.962.13l15.6,15.6Z" transform="translate(-46.463 -0.012)" fill="#32bbff"/>
+        <path id="Path_1482" data-name="Path 1482" d="M25.048,1.93a2.241,2.241,0,0,0-.332.142,2.194,2.194,0,0,0-1.167,1.95V31.037a2.193,2.193,0,0,0,1.167,1.95,2.269,2.269,0,0,0,.331.142l15.6-15.6Z" transform="translate(-23.549 -1.812)" fill="#32bbff"/>
+        <path id="Path_1483" data-name="Path 1483" d="M63.556,255.98l-15.6,15.6a2.169,2.169,0,0,0,1.928-.252c8.817-4.937,14.613-8.179,18.308-10.239l.3-.17Z" transform="translate(-46.457 -240.263)" fill="#32bbff"/>
+      </g>
+      <path id="Path_1484" data-name="Path 1484" d="M23.549,255.98v13.508a2.193,2.193,0,0,0,1.167,1.95,2.267,2.267,0,0,0,.331.142l15.6-15.6Z" transform="translate(-23.549 -240.262)" fill="#2c9fd9"/>
+      <path id="Path_1485" data-name="Path 1485" d="M44.82.37A2.2,2.2,0,0,0,42.561.26L58.256,15.955l5.171-5.171C59.774,8.741,53.912,5.461,44.82.37Z" transform="translate(-41.394 0)" fill="#29cc5e"/>
+      <path id="Path_1486" data-name="Path 1486" d="M58.256,252.126,42.561,267.821a2.184,2.184,0,0,0,2.259-.11c8.817-4.938,14.613-8.179,18.308-10.239l.3-.17Z" transform="translate(-41.394 -236.645)" fill="#d93f21"/>
+      <path id="Path_1487" data-name="Path 1487" d="M306.224,177.961a2.188,2.188,0,0,0-1.126-1.923s-1.4-.781-5.691-3.181l-5.1,5.1,5.109,5.109c4.244-2.383,5.686-3.186,5.686-3.186A2.187,2.187,0,0,0,306.224,177.961Z" transform="translate(-277.678 -162.243)" fill="#ffd500"/>
+      <path id="Path_1488" data-name="Path 1488" d="M305.1,257.9a2.188,2.188,0,0,0,1.126-1.923H294.3l5.109,5.109C303.656,258.706,305.1,257.9,305.1,257.9Z" transform="translate(-277.678 -240.262)" fill="#fa0"/>
+    </g>
+    <text id="GET_IT_ON" data-name="GET IT ON" transform="translate(778.595 6619)" fill="#311342" font-size="12" font-family="AvenirNext-Medium, Avenir Next" font-weight="500" letter-spacing="0.022em"><tspan x="0" y="0">GET IT ON</tspan></text>
+    <text id="Google_Play" data-name="Google Play" transform="translate(778.595 6642)" fill="#311342" font-size="22" font-family="AvenirNext-DemiBold, Avenir Next" font-weight="300" letter-spacing="0.022em"><tspan x="0" y="0">Google Play</tspan></text>
+  </g>
+</svg>

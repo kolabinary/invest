@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152.22" height="43" viewBox="0 0 152.22 43">
+  <g id="Group_25629" data-name="Group 25629" transform="translate(-979.78 -6614)">
+    <text id="Download_on_the" data-name="Download on the" transform="translate(1025 6626)" fill="#311342" font-size="12" font-family="AvenirNext-Medium, Avenir Next" font-weight="500" letter-spacing="0.022em"><tspan x="0" y="0">Download on the</tspan></text>
+    <text id="App_Store" data-name="App Store" transform="translate(1025 6649)" fill="#311342" font-size="22" font-family="AvenirNext-DemiBold, Avenir Next" font-weight="300" letter-spacing="0.022em"><tspan x="0" y="0">App Store</tspan></text>
+    <g id="apple" transform="translate(979.78 6615.02)">
+      <path id="Path_1489" data-name="Path 1489" d="M56.917,148.793c-5.963-.034-10.9-12.207-10.9-18.406,0-10.126,7.6-12.343,10.524-12.343a12.11,12.11,0,0,1,3.971.977,8.876,8.876,0,0,0,2.267.65,7.056,7.056,0,0,0,1.627-.527,13.036,13.036,0,0,1,4.9-1.185h.011a10.049,10.049,0,0,1,8.409,4.247l.613.922-.883.666c-1.261.951-3.562,2.687-3.562,6.125a6.913,6.913,0,0,0,3.857,6.391c.553.332,1.124.675,1.124,1.425,0,.489-3.907,11-9.579,11a7.7,7.7,0,0,1-3.235-.785,6.56,6.56,0,0,0-2.879-.693,7.406,7.406,0,0,0-2.28.617,11.168,11.168,0,0,1-3.955.923Z" transform="translate(-46.022 -108.727)" fill="#311342"/>
+      <path id="Path_1490" data-name="Path 1490" d="M262.681,0c.148,5.327-3.662,9.023-7.467,8.791C254.587,4.54,259.019,0,262.681,0Z" transform="translate(-238.789)" fill="#311342"/>
+    </g>
+  </g>
+</svg>

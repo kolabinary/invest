@@ -28,7 +28,7 @@
                         </div>
                     </div>
 
-                    <div class="step-list" style="::before:content: none;">
+                    <div class="step-list">
                         <span class="step-num"></span>
                         <div class="step-list-content">
                             <span class="title" style="display: block;">Fund your wallet</span>
@@ -38,6 +38,7 @@
 
                         </div>
                     </div>
+
 
                 </div>
             </div>

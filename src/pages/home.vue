@@ -34,6 +34,10 @@
 
         <body1></body1>
         <body2></body2>
+        <body3></body3>
+        <body4></body4>
+        <body5></body5>
+        <footer1></footer1>
 
     </div>
 </template>
@@ -41,13 +45,21 @@
 <script>
     import body1 from '../components/home/body1.vue'
     import body2 from '../components/home/body2.vue'
+    import body3 from '../components/home/body3.vue'
+    import body4 from '../components/home/body4.vue'
+    import body5 from '../components/home/body5.vue'
+    import footer1 from '../components/home/footer1.vue'
 
 
     export default {
         name: 'home',
         components: {
             body1,
-            body2
+            body2,
+            body3,
+            body4,
+            body5,
+            footer1
         }
     }
 </script>
@@ -110,7 +122,11 @@
                 margin-top: 1rem;
                 display: inline-block;
                 font-size: 20px;
+                transition: all 0.5s ease-in-out;
 
+            }
+            .hero-btn1:hover {
+               outline: 1px solid #622586;
             }
 
             .hero-btn2 {
@@ -121,6 +137,7 @@
                 border-radius: 7px;
                 margin-right: 1rem;
             }
+
             .hero-btn3 {
                 display: inline-block;
                 margin-top: 1rem;
@@ -161,6 +178,8 @@
                 background-color: #622586;
                 color: #fff;
             }
+
+
         }
     }
 
