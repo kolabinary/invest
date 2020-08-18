@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="contr">
         <div class="faq">
           <h1>Frequently asked questions</h1>
           <input type="text">
@@ -44,12 +44,17 @@
         </div>
         <div>
         </div>
+       <footer1></footer1>
       </div>
 </template>
 
 <script>
+    import footer1 from '../components/home/footer1.vue'
 export default {
   name: 'faq',
+  components: {
+            footer1
+        },
   data() {
     return{
         isOpen: true
