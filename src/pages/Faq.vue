@@ -150,7 +150,9 @@ methods: {
       margin:auto;
       display: flex;
       padding-top: 9%;
-    }
+      
+    }.container{padding:0;}
+
     .bb1{
       font-size: 1.2rem;
       margin-right: 10%;
