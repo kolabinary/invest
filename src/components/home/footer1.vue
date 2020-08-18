@@ -32,7 +32,8 @@ export default {
     @import '../../css/main.css';
 
     .container {
-        padding: 1% 5%;
+        padding: 3% 5%;
+        background-color: #FCFAFD;
 
         .main > div {
             width: 50%;

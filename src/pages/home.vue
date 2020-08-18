@@ -38,6 +38,7 @@
         <body4></body4>
         <body5></body5>
         <footer1></footer1>
+        <footer2></footer2>
 
     </div>
 </template>
@@ -49,6 +50,7 @@
     import body4 from '../components/home/body4.vue'
     import body5 from '../components/home/body5.vue'
     import footer1 from '../components/home/footer1.vue'
+    import footer2 from '../components/home/footer2.vue'
 
 
     export default {
@@ -59,7 +61,8 @@
             body3,
             body4,
             body5,
-            footer1
+            footer1,
+            footer2
         }
     }
 </script>
