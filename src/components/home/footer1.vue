@@ -41,6 +41,7 @@ export default {
 
         .main {
             display: flex;
+            flex-wrap: wrap;
             background: url('../../assets/footer1-bg.svg');
             background-repeat: no-repeat;
             background-position: right center;
@@ -105,6 +106,47 @@ export default {
             .download-btn {
                 width: 100%;
                 margin-top: 2rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .main > div {
+            width: 100% !important;
+        }
+
+
+
+        .acc {
+            padding: 1.4rem 1.5rem!important;
+            min-width: 80%;
+            display: block !important;
+            text-align: center;
+        }
+
+   .hero-btn3,.hero-btn2 {
+            display: block !important;
+            text-align: center;
+            margin-right: 0!important;
+        }
+
+
+        .text-cup {
+            margin: 0 !important;
+            p {
+                text-align: left !important;
+                font-size: 16px !important;
+                line-height: 1.5;
+                opacity: 0.8;
+            }
+        }
+
+        .main {
+            padding: 2rem 2rem !important;
+
+            h1 {
+                font-size: 30px!important;
+                max-width: 18ch!important;
             }
         }
     }

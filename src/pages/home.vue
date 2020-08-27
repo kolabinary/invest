@@ -4,7 +4,7 @@
             <nav class="nav">
                 <div class="logo"><img src="../assets/logo.svg" alt="" height="40"></div>
                 <div class="link-up">
-                    <a href="">About</a>
+                   <router-link to="/about" >About</router-link>
                     <router-link to="/faq" href="">FAQs</router-link>
                     <a href="">Stories</a>
                     <a href="">Blog</a>
@@ -83,10 +83,14 @@
         .nav {
             display: flex;
             justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         .hero {
             display: flex;
             margin-top: 30px;
+            flex-wrap: wrap;
 
 
 
@@ -104,6 +108,7 @@
                     max-width: 60ch;
                     color: #8D8194;
                     margin-bottom: 1rem;
+                    line-height: 1.5;
                 }
                 h1 {
                     line-height: 1.3;
@@ -179,12 +184,31 @@
 
             .nav-button:hover {
                 background-color: #622586;
-                color: #fff;
+                color: #fff !important;
             }
 
 
         }
     }
 
+    /* Mobile responsive */
+
+    @media screen and (max-width: 500px) {
+        .hero div {
+            width: 100% !important;
+
+            h1 {
+                font-size: 40px!important;
+            }
+        }
+
+        .hero-image {
+            display: none;
+        }
+        .jumbo {
+            /*height: 100vh !important;*/
+        }
+
+    }
 
 </style>

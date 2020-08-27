@@ -73,10 +73,12 @@ export default {
                color: #8D8194;
                font-size: 16px;
                margin-bottom: 2rem;
+               line-height: 1.5;
            }
        }
         .cards {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             margin: 3rem 0;
 
@@ -90,6 +92,7 @@ export default {
                 font-size: 16px;
                 letter-spacing: 1px;
                 color: #61516A;
+
                 /*font-weight: 400;*/
                 /*text-align: justify;*/
             }
@@ -131,5 +134,37 @@ export default {
         }
 
     }
+
+    @media screen and (max-width: 500px) {
+        .cards > div {
+            width: 100% !important;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+
+            font-size: 30px !important;
+            margin-bottom: 1.5rem !important;
+            letter-spacing: 0.5px;
+        }
+
+        .cards  h3 {
+            font-size: 28px!important;
+        }
+
+        .cards p {
+            font-size: 17px !important;
+            line-height: 1.6;
+
+        }
+
+        .card2 {
+            background-size: 112% !important;
+        }
+
+
+    }
+
+
 
 </style>

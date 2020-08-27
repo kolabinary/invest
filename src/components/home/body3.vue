@@ -98,4 +98,25 @@ export default {
             }
         }
     }
+
+    @media screen and ( max-width: 500px){
+        .left {
+            width: 100% !important;
+            h1 {
+                font-size: 30px!important;
+            }
+            p {
+                font-size: 16px !important;
+                line-height: 1.5;
+                opacity: 0.8;
+                font-weight: 300;
+            }
+        }
+        .right {
+            display: none;
+            /*img {*/
+                /*display: none !important;*/
+            /*}*/
+        }
+    }
 </style>

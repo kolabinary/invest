@@ -37,6 +37,8 @@
                 <a href=""><img src="../../assets/youtube.svg" alt=""></a>
 
             </div>
+
+            <hr>
             <div class="address">
                 <a href=""><img src="../../assets/logo.svg" alt="" height="50"></a>
                 <p class="address-office">22a Udi Street, Osborne Foreshore, Ikoyi, Lagos</p>
@@ -47,6 +49,7 @@
 
             </div>
         </div>
+        <hr>
         <div class="last">
             <p>i-invest is a mobile application which allows current and aspiring investors purchase securities and
                 other related instruments without the aid of a broker. In addition, the application provides a UI
@@ -147,7 +150,7 @@ export default {
                     font-weight: 500;
                     color: #776382;
                     margin-bottom: 0.5rem;
-                    transition: all 0.2s ease-in-out;
+                    transition: all 0.5s ease-in-out;
                 }
                 a:hover {
                     color: #311342;
@@ -167,4 +170,35 @@ export default {
     }
 
 
+
+    @media screen and (max-width: 500px) {
+    .foot-flex > div {
+        width: 100% !important;
+        margin-bottom: 2rem;
+
+    }
+        .address {
+            margin-bottom: 0!important;
+            text-align: left !important;
+            p {
+                text-align: left !important;
+            }
+
+        }
+
+        hr {
+            opacity: 0.7;
+        }
+
+        .last {
+            margin-top: 1rem !important;
+
+            p {
+                line-height: 1.5;
+                font-size: 16px;
+                opacity: 0.7;
+
+            }
+        }
+    }
 </style>

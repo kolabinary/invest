@@ -37,6 +37,7 @@ export default {
 
         .holder {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             padding: 2rem 0;
             .right {
@@ -50,5 +51,21 @@ export default {
         }
 
 
+    }
+
+    @media screen and (max-width: 500px) {
+
+       .container {
+           h1 {
+               font-size: 30px;
+           }
+       }
+        iframe {
+            width: 320px;
+        }
+
+        .right {
+            margin-left: 0!important;
+        }
     }
 </style>

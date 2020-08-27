@@ -9,9 +9,19 @@
 
 .gen-hover:hover {
     filter: drop-shadow(0 10px 13px rgba(0,0,0,0.3));
+
 }
 
 .gen-hover2:hover {
     background-color: #F2C45A;
     color: #fff !important;
+
+}
+
+.link-up a:hover {
+    color: #622586 !important;
+}
+
+.main h1 {
+
 }

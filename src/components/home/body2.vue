@@ -2,7 +2,7 @@
     <div class="container">
         <div class="holder">
             <div class="step-img">
-                <img src="../../assets/app-mock@3x.png" alt="" height="700">
+                <img src="../../assets/create.png" alt="" height="700">
             </div>
             <div class="details">
                 <h3>Investing on i-invest in 4 easy steps</h3>
@@ -71,6 +71,7 @@ export default {
             display: flex;
             justify-content: space-between;
 
+
             .details {
                 padding: 2% 10%;
             }
@@ -134,5 +135,42 @@ export default {
             width: 50%;
         }
     }
+
+
+    @media screen and (max-width: 500px) {
+        .holder > div {
+            width: 100% !important;
+
+            img {
+                height: 300px;
+            }
+        }
+
+        .details h3 {
+            color: #311342;
+        }
+
+        .holder {
+            flex-wrap: wrap;
+        }
+        .step-img {
+            img {
+                height: 530px !important;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+
+        .lines {
+            font-size: 16px;
+            line-height: 1.5;
+            opacity: 0.7;
+            letter-spacing: 0.5px;
+        }
+
+
+
+    }
+
 
 </style>
